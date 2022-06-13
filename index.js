@@ -101,7 +101,7 @@
 		
   // Reply
   const reply = (teks) => {
-  chika.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `${botname}`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": thumb,"sourceUrl": `${myweb}`}}}, { quoted: m })
+  chika.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `${botname}`,"body": `Selamat ${salam} ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": thumb,"sourceUrl": `${myweb}`}}}, { quoted: m })
   }
         
   // Random Image Simple Menu
@@ -1128,7 +1128,6 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
   }
   break
   case 'nsfw':
-  if (!m.isGroup) return reply(mess.group)
   if (!isBotAdmins) return reply(mess.botAdmin)
   if (!isAdmins) return reply(mess.admin)
   if (args[0] === "on") {
