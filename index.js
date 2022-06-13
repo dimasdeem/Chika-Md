@@ -1226,7 +1226,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
   reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
   for (let yoi of anu) {
   await sleep(1500)
-  let btn = [ { urlButton: { { urlButton: { displayText: `My Website`, url: `${myweb}` } },  { quickReplyButton: { displayText: 'Menu' , id: 'menu' } } ]
+  let btn = [ {urlButton: {displayText: `My Website`, url: `${myweb}`}},{quickReplyButton: {displayText: 'Menu' , id: 'menu'}} ]
   let txt = `「 Broadcast Bot 」\n\n${text}`
   chika.send5ButImg(yoi, txt, ownername, global.thumb, btn)
   }
