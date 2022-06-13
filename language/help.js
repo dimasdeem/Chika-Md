@@ -577,18 +577,7 @@ Gunakan Bot dengan bijak🙏
   ✎ ${prefix}darkjokes
   
   *(🙏) Thanks To*
-  ✎ Dika Ardnt
-  ✎ Mhankbarbar
-  ✎ Fatih Arridho
-  ✎ Ryuka Team
-  ✎ Zeeone Ofc
-  ✎ Bagas Prdn
-  ✎ Nurutomo
-  ✎ OnX Dz
-  ✎ Nekel
-  ✎ Yoga
-  ✎ Deff
-  ✎ Riy
+  ✎ Allah swt
   `
   }
 
@@ -601,22 +590,6 @@ Gunakan Bot dengan bijak🙏
   // Leave
   exports.leave = () => {
   return`Byeee
-  `
-  }
-
-  // Donasi
-  exports.donasi  = (ownernomer) => {
-  return `
-*DONATE*
-
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-Berapapun donasi kalian akan sangat berarti 👍
-
-Thanks!
-
-*Contact person Owner* :
-wa.me/${ownernomer}
   `
   }
 
@@ -1270,17 +1243,6 @@ wa.me/${ownernomer}
   exports.thanksto = () => {
   return `
   *(🙏) Thanks To*
-  ✎ Dika Ardnt
-  ✎ Mhankbarbar
-  ✎ Fatih Arridho
-  ✎ Ryuka Team
-  ✎ Zeeone Ofc
-  ✎ Bagas Prdn
-  ✎ Nurutomo
-  ✎ OnX Dz
-  ✎ Nekel
-  ✎ Yoga
-  ✎ Deff
-  ✎ Riy
+  ✎ Allah swt
   `
   }
